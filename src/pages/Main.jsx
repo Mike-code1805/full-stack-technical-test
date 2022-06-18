@@ -1,10 +1,13 @@
 import React from "react";
-import { Offerse } from "../components/Offerse/Offerse";
-
+import Dialog from "../components/dialog/Dialog";
+import { Offerse } from "../components/offerse/Offerse";
 
 const Main = () => {
-  return (    
+  return (   
+    <div className={["containerMain"]}>
       <Offerse/>
+      <Dialog/>
+    </div>       
   );
 }
 

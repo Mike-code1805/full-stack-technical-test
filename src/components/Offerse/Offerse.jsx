@@ -1,6 +1,7 @@
 import React from 'react';
 import { offers } from '../../jsonData';
-import { ActionButtons } from './components/ActionButtons';
+import { ActionButtons } from './components/actionButtons/ActionButtons.jsx';
+
 import './styles/offerse.scss'
 
 export const Offerse = () => {
@@ -28,7 +29,6 @@ return (
                     }
             </tbody>
         </table>
-        <button>Click me</button>
 	</div>
 );
 }

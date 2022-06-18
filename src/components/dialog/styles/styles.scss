@@ -1,0 +1,25 @@
+@import '/src/scss/global';
+.dialogcontainer{
+    display: flex;    
+    width: 50%;
+    height: 100%;
+    align-items: center;
+    .dialog{
+        @include breakpoint(lg) {
+        }
+        border-color: $white;  
+        background: $gray;      
+        align-items:center;
+        form{
+            display: flexbox;
+            width: 30%;
+            align-items:center;
+        }
+    }
+    .button{
+        align-items: flex-start;
+        border-color: $white;
+        border-radius: 10%;
+        box-shadow: 0px 3px 3px 0px $gray-light;   
+    }
+}
