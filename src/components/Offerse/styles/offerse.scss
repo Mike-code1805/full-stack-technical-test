@@ -1,0 +1,23 @@
+@import '/src/scss/global';
+
+.container{
+    padding-top: 50px;
+    height: 100%;
+    width: 50%;
+    display: flexbox; 
+    align-items:center;
+    .table{
+        @include breakpoint(lg) {                       
+            align-items:center;
+        } 
+        box-shadow: -3px 3px 3px 0px $gray-light;              
+        thead{
+            background-color: $blue;
+            color: $white;
+        }
+        tr:nth-child(even){
+            background-color: $gray;
+        }                
+    }    
+}
+

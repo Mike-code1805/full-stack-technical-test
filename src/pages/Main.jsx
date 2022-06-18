@@ -1,5 +1,6 @@
 import React from "react";
-import { Offerse } from "../components/Offerse";
+import { Offerse } from "../components/Offerse/Offerse";
+
 
 const Main = () => {
   return (    

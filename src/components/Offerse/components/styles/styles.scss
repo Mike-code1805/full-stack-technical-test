@@ -1,0 +1,16 @@
+@import '/src/scss/global';
+
+.actionButton{
+    display: flex;
+    button{
+        margin-left: 5px;
+       border-color: $white;
+       border-radius: 20%;
+    }
+    .style-trash{
+        color: $red;
+    }
+    .style-edit{
+        color: $yellow;
+    }  
+}
