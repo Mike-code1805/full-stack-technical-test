@@ -1,16 +1,18 @@
 import React from 'react';
-
+import 'bootstrap'
 export const Offerse = () => {
   return (
-    <table class="table table-striped">
+    <tbody>
+        <table class="table table-striped">
         <thead>
             <tr>
-            <th scope="col">#</th>
-            <th scope="col">First</th>
-            <th scope="col">Last</th>
-            <th scope="col">Handle</th>
+            <th scope="col">Offerse</th>
+            <th scope="col">Type</th>
+            <th scope="col">Hours</th>
+            <th scope="col">Actions</th>
             </tr>
         </thead>
+        <hr></hr>
         <tbody>
             <tr>
             <th scope="row">1</th>
@@ -32,5 +34,7 @@ export const Offerse = () => {
             </tr>
         </tbody>
     </table>
+    </tbody>
+    
   );
 }
