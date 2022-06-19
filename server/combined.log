@@ -1,0 +1,213 @@
+{"level":"error","message":"error getting user with email miketest2","service":"getOneUserByEmailService","trace":"Parameter \"filter\" to find() must be an object, got miketest2"}
+{"level":"error","message":"error getting user with email miketest2","service":"getOneUserByEmailService","trace":"Parameter \"filter\" to find() must be an object, got miketest2"}
+{"level":"error","message":"error getting user with email miketest2","service":"getOneUserByEmailService","trace":"Parameter \"filter\" to find() must be an object, got miketest2"}
+{"level":"error","message":"error getting user with email miketest","service":"getOneUserByEmailService","trace":"Parameter \"filter\" to find() must be an object, got miketest"}
+{"level":"error","message":"error getting user with email miketest","service":"getOneUserByEmailService","trace":"Parameter \"filter\" to find() must be an object, got miketest"}
+{"level":"error","message":"error getting user with email miketest2","service":"getOneUserByEmailService","trace":"Parameter \"filter\" to find() must be an object, got miketest2"}
+{"level":"error","message":"error getting user with email test@test7.com","service":"getOneUserByEmailService","trace":"Parameter \"filter\" to find() must be an object, got test@test7.com"}
+{"level":"error","message":"error getting user with email miketest7","service":"getOneUserByEmailService","trace":"Parameter \"filter\" to find() must be an object, got miketest7"}
+{"level":"error","message":"error getting user with email miketest7","service":"getOneUserByEmailService","trace":"Parameter \"filter\" to find() must be an object, got miketest7"}
+{"level":"error","message":"error getting user with email miketest7","service":"getOneUserByEmailService","trace":"Parameter \"filter\" to find() must be an object, got miketest7"}
+{"level":"error","message":"error getting user with email miketest7","service":"getOneUserByEmailService","trace":"Parameter \"filter\" to find() must be an object, got miketest7"}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error","service":"user-service"}
+{"fn":"authValidateUserService","instance":"services","level":"error","message":"Error validating user credentials","service":"user-service","trace":"user email or password is incorrect"}
+{"fn":"authLoginService","instance":"services","level":"error","message":"Error login user","service":"user-service","trace":"Error validating user credentials"}
+{"fn":"bodyRequestValidator","instance":"middlewares schema validation","level":"error","message":"error validating body request Paswords must match","service":"user-service","trace":"Paswords must match"}
+{"fn":"bodyRequestValidator","instance":"middlewares schema validation","level":"error","message":"error validating body request Password confirmation is required","service":"user-service","trace":"Password confirmation is required"}
+{"fn":"bodyRequestValidator","instance":"middlewares schema validation","level":"error","message":"error validating body request Username is required","service":"user-service","trace":"Username is required"}
+{"fn":"authValidateUserService","instance":"services","level":"error","message":"Error validating user credentials","service":"user-service","trace":"user email or password is incorrect"}
+{"fn":"authLoginService","instance":"services","level":"error","message":"Error login user","service":"user-service","trace":"Error validating user credentials"}
+{"fn":"bodyRequestValidator","instance":"middlewares schema validation","level":"error","message":"error validating body request Username is required","service":"user-service","trace":"Username is required"}
+{"fn":"bodyRequestValidator","instance":"middlewares schema validation","level":"error","message":"error validating body request Password confirmation is required","service":"user-service","trace":"Password confirmation is required"}
+{"level":"error","message":"error creating user with email MIKETEST1@test.com","service":"authCreateUserService","trace":"E11000 duplicate key error collection: olademar-backend.users index: username_1 dup key: { username: \"miketest1\" }"}
+{"level":"error","message":"error creating user with email MIKETEST3@test.com","service":"authCreateUserService","trace":"E11000 duplicate key error collection: olademar-backend.users index: email_1 dup key: { email: \"miketest3@test.com\" }"}
+{"instance":"services","level":"error","message":"error creating a new project service","service":"createNewProjectService","trace":"Cart validation failed: owner: an user is required to create a cart"}
+{"instance":"controller","level":"error","message":"error on create cart controller","service":"createCartController","trace":"Error creating a new project Cart validation failed: owner: an user is required to create a cart"}
+{"instance":"services","level":"error","message":"error creating a new project service","service":"createNewProjectService","trace":"Cart validation failed: owner: an user is required to create a cart"}
+{"instance":"controller","level":"error","message":"error on create cart controller","service":"createCartController","trace":"Error creating a new project Cart validation failed: owner: an user is required to create a cart"}
+{"instance":"services","level":"error","message":"error creating a new project service","service":"createNewProjectService","trace":"Cart validation failed: owner: an user is required to create a cart"}
+{"instance":"controller","level":"error","message":"error on create cart controller","service":"createCartController","trace":"Error creating a new project Cart validation failed: owner: an user is required to create a cart"}
+{"instance":"services","level":"error","message":"error creating a new project service","service":"createNewProjectService","trace":"Cart validation failed: owner: an user is required to create a cart"}
+{"instance":"controller","level":"error","message":"error on create cart controller","service":"createCartController","trace":"Error creating a new project Cart validation failed: owner: an user is required to create a cart"}
+{"instance":"services","level":"error","message":"error creating a cart service","service":"createOneCartService","trace":"Cart validation failed: owner: an user is required to create a cart"}
+{"instance":"controller","level":"error","message":"error on create cart controller","service":"createCartController","trace":"Error creating a new project Cart validation failed: owner: an user is required to create a cart"}
+{"instance":"services","level":"error","message":"error creating a cart service","service":"createOneCartService","trace":"Cart validation failed: owner: an user is required to create a cart"}
+{"instance":"controller","level":"error","message":"error on create cart controller","service":"createCartController","trace":"Error creating a new project Cart validation failed: owner: an user is required to create a cart"}
+{"instance":"services","level":"error","message":"error creating a cart service","service":"createOneCartService","trace":"Cart validation failed: owner: an user is required to create a cart"}
+{"instance":"controller","level":"error","message":"error on create cart controller","service":"createCartController","trace":"Error creating a new project Cart validation failed: owner: an user is required to create a cart"}
+{"instance":"services","level":"error","message":"error creating a cart service","service":"createOneCartService","trace":"Cart validation failed: owner: an user is required to create a cart"}
+{"instance":"controller","level":"error","message":"error on create cart controller","service":"createCartController","trace":"Error creating a new project Cart validation failed: owner: an user is required to create a cart"}
+{"instance":"services","level":"error","message":"error creating a cart service","service":"createOneCartService","trace":"Cart validation failed: owner: an user is required to create a cart"}
+{"instance":"controller","level":"error","message":"error on create cart controller","service":"createCartController","trace":"Error creating a cart Cart validation failed: owner: an user is required to create a cart"}
+{"instance":"services","level":"error","message":"error creating a cart service","service":"createOneCartService","trace":"Cart validation failed: owner: an user is required to create a cart"}
+{"instance":"controller","level":"error","message":"error on create cart controller","service":"createCartController","trace":"Error creating a cart Cart validation failed: owner: an user is required to create a cart"}
+{"instance":"services","level":"error","message":"error creating a cart service","service":"createOneCartService","trace":"Cart validation failed: owner: an user is required to create a cart"}
+{"instance":"controller","level":"error","message":"error on create cart controller","service":"createCartController","trace":"Error creating a cart Cart validation failed: owner: an user is required to create a cart"}
+{"instance":"services","level":"error","message":"error creating a cart service","service":"createOneCartService","trace":"Cart validation failed: owner: an user is required to create a cart"}
+{"instance":"controller","level":"error","message":"error on create cart controller","service":"createCartController","trace":"Error creating a cart Cart validation failed: owner: an user is required to create a cart"}
+{"instance":"services","level":"error","message":"error creating a cart service","service":"createOneCartService","trace":"Cart validation failed: owner: an user is required to create a cart"}
+{"instance":"controller","level":"error","message":"error on create cart controller","service":"createCartController","trace":"Error creating a cart Cart validation failed: owner: an user is required to create a cart"}
+{"instance":"services","level":"error","message":"error creating a cart service","service":"createOneCartService","trace":"Cart validation failed: owner: an user is required to create a cart"}
+{"instance":"controller","level":"error","message":"error on create cart controller","service":"createCartController","trace":"Error creating a cart Cart validation failed: owner: an user is required to create a cart"}
+{"level":"error","message":"error creating user with email miketest@test.com","service":"authCreateUserService","trace":"E11000 duplicate key error collection: olademar-backend.users index: email_1 dup key: { email: \"miketest@test.com\" }"}
+{"instance":"services","level":"error","message":"error creating a cart service","service":"createOneCartService","trace":"Cart validation failed: owner: an user is required to create a cart"}
+{"instance":"controller","level":"error","message":"error on create cart controller","service":"createCartController","trace":"Error creating a cart Cart validation failed: owner: an user is required to create a cart"}
+{"instance":"services","level":"error","message":"error creating a cart service","service":"createOneCartService","trace":"Cart validation failed: owner: an user is required to create a cart"}
+{"instance":"controller","level":"error","message":"error on create cart controller","service":"createCartController","trace":"Error creating a cart Cart validation failed: owner: an user is required to create a cart"}
+{"instance":"services","level":"error","message":"error creating a cart service","service":"createOneCartService","trace":"Cart validation failed: owner: an user is required to create a cart"}
+{"instance":"controller","level":"error","message":"error on create cart controller","service":"createCartController","trace":"Error creating a cart Cart validation failed: owner: an user is required to create a cart"}
+{"instance":"services","level":"error","message":"error creating a cart service","service":"createOneCartService","trace":"Cart validation failed: owner: an user is required to create a cart"}
+{"instance":"controller","level":"error","message":"error on create cart controller","service":"createCartController","trace":"Error creating a cart Cart validation failed: owner: an user is required to create a cart"}
+{"instance":"services","level":"error","message":"error creating a cart service","service":"createOneCartService","trace":"Cart validation failed: owner: an user is required to create a cart"}
+{"instance":"controller","level":"error","message":"error on create cart controller","service":"createCartController","trace":"Error creating a cart Cart validation failed: owner: an user is required to create a cart"}
+{"instance":"services","level":"error","message":"error creating a cart service","service":"createOneCartService","trace":"Cart validation failed: owner: an user is required to create a cart"}
+{"instance":"controller","level":"error","message":"error on create cart controller","service":"createCartController","trace":"Error creating a cart Cart validation failed: owner: an user is required to create a cart"}
+{"instance":"services","level":"error","message":"error creating a cart service","service":"createOneCartService","trace":"Cart validation failed: owner: an user is required to create a cart"}
+{"instance":"controller","level":"error","message":"error on create cart controller","service":"createCartController","trace":"Error creating a cart Cart validation failed: owner: an user is required to create a cart"}
+{"instance":"services","level":"error","message":"error creating a cart service","service":"createOneCartService","trace":"Cart validation failed: owner: an user is required to create a cart"}
+{"instance":"controller","level":"error","message":"error on create cart controller","service":"createCartController","trace":"Error creating a cart Cart validation failed: owner: an user is required to create a cart"}
+{"instance":"services","level":"error","message":"error creating a cart service","service":"createOneCartService","trace":"Cart validation failed: owner: Path `owner` is required."}
+{"instance":"controller","level":"error","message":"error on create cart controller","service":"createCartController","trace":"Error creating a cart Cart validation failed: owner: Path `owner` is required."}
+{"instance":"services","level":"error","message":"error creating a cart service","service":"createOneCartService","trace":"Cart validation failed: owner: Path `owner` is required."}
+{"instance":"controller","level":"error","message":"error on create cart controller","service":"createCartController","trace":"Error creating a cart Cart validation failed: owner: Path `owner` is required."}
+{"instance":"services","level":"error","message":"error creating a cart service","service":"createOneCartService","trace":"Cart validation failed: owner: Path `owner` is required."}
+{"instance":"controller","level":"error","message":"error on create cart controller","service":"createCartController","trace":"Error creating a cart Cart validation failed: owner: Path `owner` is required."}
+{"instance":"services","level":"error","message":"error creating a cart service","service":"createOneCartService","trace":"Cart validation failed: owner: Path `owner` is required."}
+{"instance":"controller","level":"error","message":"error on create cart controller","service":"createCartController","trace":"Error creating a cart Cart validation failed: owner: Path `owner` is required."}
+{"instance":"services","level":"error","message":"error creating a cart service","service":"createOneCartService","trace":"Cart validation failed: owner: Path `owner` is required."}
+{"instance":"controller","level":"error","message":"error on create cart controller","service":"createCartController","trace":"Error creating a cart Cart validation failed: owner: Path `owner` is required."}
+{"instance":"services","level":"error","message":"error creating a cart service","service":"createOneCartService","trace":"Cart validation failed: owner: Path `owner` is required."}
+{"instance":"controller","level":"error","message":"error on create cart controller","service":"createCartController","trace":"Error creating a cart Cart validation failed: owner: Path `owner` is required."}
+{"instance":"services","level":"error","message":"error creating a cart service","service":"createOneCartService","trace":"Cart validation failed: owner: Cast to ObjectId failed for value \"{ owner: '629e6910d85a1eb5d350e201' }\" (type Object) at path \"owner\" because of \"BSONTypeError\""}
+{"instance":"controller","level":"error","message":"error on create cart controller","service":"createCartController","trace":"Error creating a cart Cart validation failed: owner: Cast to ObjectId failed for value \"{ owner: '629e6910d85a1eb5d350e201' }\" (type Object) at path \"owner\" because of \"BSONTypeError\""}
+{"instance":"services","level":"error","message":"error creating a cart service","service":"createOneCartService","trace":"Cart validation failed: owner: Path `owner` is required."}
+{"instance":"controller","level":"error","message":"error on create cart controller","service":"createCartController","trace":"Error creating a cart Cart validation failed: owner: Path `owner` is required."}
+{"instance":"services","level":"error","message":"error creating a cart service","service":"createOneCartService","trace":"Cart validation failed: owner: Path `owner` is required."}
+{"instance":"controller","level":"error","message":"error on create cart controller","service":"createCartController","trace":"Error creating a cart Cart validation failed: owner: Path `owner` is required."}
+{"instance":"services","level":"error","message":"error creating a order service","service":"createOneOrderService","trace":"Order validation failed: owner: Path `owner` is required."}
+{"instance":"controller","level":"error","message":"error on create cart controller","service":"createCartController","trace":"Error creating a order Order validation failed: owner: Path `owner` is required."}
+{"fn":"bodyRequestValidator","instance":"middlewares schema validation","level":"error","message":"error validating body request Password confirmation is required","service":"user-service","trace":"Password confirmation is required"}
+{"level":"error","message":"error creating user with email miketest@test.com","service":"authCreateUserService","trace":"E11000 duplicate key error collection: olademar-backend.users index: username_1 dup key: { username: \"mikes\" }"}
+{"fn":"authValidateUserService","instance":"services","level":"error","message":"Error validating user credentials","service":"user-service","trace":"user email or password is incorrect"}
+{"fn":"authLoginService","instance":"services","level":"error","message":"Error login user","service":"user-service","trace":"Error validating user credentials"}
+{"fn":"bodyRequestValidator","instance":"middlewares schema validation","level":"error","message":"error validating body request Password confirmation is required","service":"user-service","trace":"Password confirmation is required"}
+{"fn":"bodyRequestValidator","instance":"middlewares schema validation","level":"error","message":"error validating body request Password confirmation is required","service":"user-service","trace":"Password confirmation is required"}
+{"level":"error","message":"error creating user with email miketest1@test.com","service":"authCreateUserService","trace":"E11000 duplicate key error collection: olademar-backend.users index: username_1 dup key: { username: \"mikes1\" }"}
+{"fn":"authValidateUserService","instance":"services","level":"error","message":"Error validating user credentials","service":"user-service","trace":"user email or password is incorrect"}
+{"fn":"authLoginService","instance":"services","level":"error","message":"Error login user","service":"user-service","trace":"Error validating user credentials"}
+{"fn":"authValidateUserService","instance":"services","level":"error","message":"Error validating user credentials","service":"user-service","trace":"user email or password is incorrect"}
+{"fn":"authLoginService","instance":"services","level":"error","message":"Error login user","service":"user-service","trace":"Error validating user credentials"}
+{"level":"error","message":"error getting the users","service":"getAllUsersService","trace":"User Does not exist"}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error getting the users","service":"getAllUsersService","trace":"User Does not exist"}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error getting the users","service":"getAllUsersService","trace":"User Does not exist"}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error getting the users","service":"getAllUsersService","trace":"User Does not exist"}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error getting the users","service":"getAllUsersService","trace":"User Does not exist"}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error getting the users","service":"getAllUsersService","trace":"User Does not exist"}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error creating user with email leonsaca20@gmail.com","service":"authCreateUserService","trace":"Operation `users.insertOne()` buffering timed out after 10000ms"}
+{"fn":"authCreateUserAccountService","instance":"services","level":"error","message":"Error creating user account","service":"user-service","trace":"error creating user with email leonsaca20@gmail.com"}
+{"level":"error","message":"error creating user with email leonsaca20@gmail.com","service":"authCreateUserService","trace":"Operation `users.insertOne()` buffering timed out after 10000ms"}
+{"fn":"authCreateUserAccountService","instance":"services","level":"error","message":"Error creating user account","service":"user-service","trace":"error creating user with email leonsaca20@gmail.com"}
+{"fn":"authValidateUserAccount","instance":"services","level":"error","message":"Error validating user email","service":"user-service","trace":"user incorrect"}
+{"fn":"authValidateUserAccount","instance":"services","level":"error","message":"Error validating user email","service":"user-service","trace":"user incorrect"}
+{"fn":"authValidateUserService","instance":"services","level":"error","message":"Error validating user credentials","service":"user-service","trace":"user email or password is incorrect"}
+{"fn":"authLoginService","instance":"services","level":"error","message":"Error login user","service":"user-service","trace":"Error validating user credentials"}
+{"level":"error","message":"error creating user with email yco20191@zcrcd.com","service":"authCreateUserService","trace":"E11000 duplicate key error collection: olademar-backend.users index: username_1 dup key: { username: \"mikess\" }"}
+{"fn":"authCreateUserAccountService","instance":"services","level":"error","message":"Error creating user account","service":"user-service","trace":"error creating user with email yco20191@zcrcd.com"}
+{"level":"error","message":"error creating user with email lwf84112@xcoxc.com","service":"authCreateUserService","trace":"E11000 duplicate key error collection: olademar-backend.users index: username_1 dup key: { username: \"mikess\" }"}
+{"fn":"authCreateUserAccountService","instance":"services","level":"error","message":"Error creating user account","service":"user-service","trace":"error creating user with email lwf84112@xcoxc.com"}
+{"level":"error","message":"error creating user with email vnd40102@zcrcd.com","service":"authCreateUserService","trace":"E11000 duplicate key error collection: olademar-backend.users index: username_1 dup key: { username: \"mike\" }"}
+{"fn":"authCreateUserAccountService","instance":"services","level":"error","message":"Error creating user account","service":"user-service","trace":"error creating user with email vnd40102@zcrcd.com"}
+{"fn":"authValidateUserAccount","instance":"services","level":"error","message":"Error validating user email","service":"user-service","trace":"user incorrect"}
+{"level":"error","message":"error getting user with id 62a544f10671e8112147184i","service":"getOneUserByIdService","trace":"Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer"}
+{"fn":"authValidateUserService","instance":"services","level":"error","message":"Error validating user credentials","service":"user-service","trace":"user email or password is incorrect"}
+{"fn":"authLoginService","instance":"services","level":"error","message":"Error login user","service":"user-service","trace":"Error validating user credentials"}
+{"fn":"authValidateUserService","instance":"services","level":"error","message":"Error validating user credentials","service":"user-service","trace":"user email or password is incorrect"}
+{"fn":"authLoginService","instance":"services","level":"error","message":"Error login user","service":"user-service","trace":"Error validating user credentials"}
+{"fn":"authValidateUserService","instance":"services","level":"error","message":"Error validating user credentials","service":"user-service","trace":"user email or password is incorrect"}
+{"fn":"authLoginService","instance":"services","level":"error","message":"Error login user","service":"user-service","trace":"Error validating user credentials"}
+{"fn":"authValidateUserService","instance":"services","level":"error","message":"Error validating user credentials","service":"user-service","trace":"user email or password is incorrect"}
+{"fn":"authLoginService","instance":"services","level":"error","message":"Error login user","service":"user-service","trace":"Error validating user credentials"}
+{"fn":"bodyRequestValidator","instance":"middlewares schema validation","level":"error","message":"error validating body request Paswords must match","service":"user-service","trace":"Paswords must match"}
+{"fn":"authLoginService","instance":"services","level":"error","message":"Error login user","service":"user-service","trace":"user does not exist "}
+{"fn":"authLoginService","instance":"services","level":"error","message":"Error login user","service":"user-service","trace":"user is not valid "}
+{"fn":"authValidateUserService","instance":"services","level":"error","message":"Error validating user credentials","service":"user-service","trace":"user email or password is incorrect"}
+{"fn":"authLoginService","instance":"services","level":"error","message":"Error login user","service":"user-service","trace":"Error validating user credentials"}
+{"fn":"authValidateUserService","instance":"services","level":"error","message":"Error validating user credentials","service":"user-service","trace":"user email or password is incorrect"}
+{"fn":"authLoginService","instance":"services","level":"error","message":"Error login user","service":"user-service","trace":"Error validating user credentials"}
+{"fn":"bodyRequestValidator","instance":"middlewares schema validation","level":"error","message":"error validating body request Password confirmation is required","service":"user-service","trace":"Password confirmation is required"}
+{"fn":"bodyRequestValidator","instance":"middlewares schema validation","level":"error","message":"error validating body request Password confirmation is required","service":"user-service","trace":"Password confirmation is required"}
+{"fn":"bodyRequestValidator","instance":"middlewares schema validation","level":"error","message":"error validating body request Password confirmation is required","service":"user-service","trace":"Password confirmation is required"}
+{"fn":"bodyRequestValidator","instance":"middlewares schema validation","level":"error","message":"error validating body request Paswords must match","service":"user-service","trace":"Paswords must match"}
+{"fn":"bodyRequestValidator","instance":"middlewares schema validation","level":"error","message":"error validating body request Password confirmation is required","service":"user-service","trace":"Password confirmation is required"}
+{"fn":"bodyRequestValidator","instance":"middlewares schema validation","level":"error","message":"error validating body request Password confirmation is required","service":"user-service","trace":"Password confirmation is required"}
+{"fn":"bodyRequestValidator","instance":"middlewares schema validation","level":"error","message":"error validating body request Password confirmation is required","service":"user-service","trace":"Password confirmation is required"}
+{"fn":"bodyRequestValidator","instance":"middlewares schema validation","level":"error","message":"error validating body request Password confirmation is required","service":"user-service","trace":"Password confirmation is required"}
+{"fn":"bodyRequestValidator","instance":"middlewares schema validation","level":"error","message":"error validating body request Password confirmation is required","service":"user-service","trace":"Password confirmation is required"}
+{"fn":"bodyRequestValidator","instance":"middlewares schema validation","level":"error","message":"error validating body request Password confirmation is required","service":"user-service","trace":"Password confirmation is required"}
+{"fn":"bodyRequestValidator","instance":"middlewares schema validation","level":"error","message":"error validating body request email must be a valid email","service":"user-service","trace":"email must be a valid email"}
+{"fn":"bodyRequestValidator","instance":"middlewares schema validation","level":"error","message":"error validating body request email must be a valid email","service":"user-service","trace":"email must be a valid email"}
+{"fn":"bodyRequestValidator","instance":"middlewares schema validation","level":"error","message":"error validating body request Paswords must match","service":"user-service","trace":"Paswords must match"}
+{"fn":"bodyRequestValidator","instance":"middlewares schema validation","level":"error","message":"error validating body request Username is required","service":"user-service","trace":"Username is required"}
+{"level":"error","message":"error creating user with email oiq61927@jeoce.com","service":"authCreateUserService","trace":"E11000 duplicate key error collection: olademar-backend.users index: username_1 dup key: { username: \"Marji\" }"}
+{"fn":"authCreateUserAccountService","instance":"services","level":"error","message":"Error creating user account","service":"user-service","trace":"error creating user with email oiq61927@jeoce.com"}
+{"fn":"bodyRequestValidator","instance":"middlewares schema validation","level":"error","message":"error validating body request Username is required","service":"user-service","trace":"Username is required"}
+{"fn":"authValidateUserService","instance":"services","level":"error","message":"Error validating user credentials","service":"user-service","trace":"user email or password is incorrect"}
+{"fn":"authLoginService","instance":"services","level":"error","message":"Error login user","service":"user-service","trace":"Error validating user credentials"}
+{"fn":"authValidateUserService","instance":"services","level":"error","message":"Error validating user credentials","service":"user-service","trace":"user email or password is incorrect"}
+{"fn":"authLoginService","instance":"services","level":"error","message":"Error login user","service":"user-service","trace":"Error validating user credentials"}
+{"fn":"authValidateUserService","instance":"services","level":"error","message":"Error validating user credentials","service":"user-service","trace":"user email or password is incorrect"}
+{"fn":"authLoginService","instance":"services","level":"error","message":"Error login user","service":"user-service","trace":"Error validating user credentials"}
+{"fn":"authLoginService","instance":"services","level":"error","message":"Error login user","service":"user-service","trace":"user is not valid "}
+{"fn":"authValidateUserService","instance":"services","level":"error","message":"Error validating user credentials","service":"user-service","trace":"user email or password is incorrect"}
+{"fn":"authLoginService","instance":"services","level":"error","message":"Error login user","service":"user-service","trace":"Error validating user credentials"}
+{"fn":"authValidateUserService","instance":"services","level":"error","message":"Error validating user credentials","service":"user-service","trace":"user email or password is incorrect"}
+{"fn":"authLoginService","instance":"services","level":"error","message":"Error login user","service":"user-service","trace":"Error validating user credentials"}
+{"fn":"bodyRequestValidator","instance":"middlewares schema validation","level":"error","message":"error validating body request Password confirmation is required","service":"user-service","trace":"Password confirmation is required"}
+{"fn":"bodyRequestValidator","instance":"middlewares schema validation","level":"error","message":"error validating body request Password confirmation is required","service":"user-service","trace":"Password confirmation is required"}
+{"fn":"bodyRequestValidator","instance":"middlewares schema validation","level":"error","message":"error validating body request Password confirmation is required","service":"user-service","trace":"Password confirmation is required"}
+{"fn":"bodyRequestValidator","instance":"middlewares schema validation","level":"error","message":"error validating body request Password confirmation is required","service":"user-service","trace":"Password confirmation is required"}
+{"fn":"bodyRequestValidator","instance":"middlewares schema validation","level":"error","message":"error validating body request Password confirmation is required","service":"user-service","trace":"Password confirmation is required"}
+{"fn":"bodyRequestValidator","instance":"middlewares schema validation","level":"error","message":"error validating body request Password confirmation is required","service":"user-service","trace":"Password confirmation is required"}
+{"fn":"bodyRequestValidator","instance":"middlewares schema validation","level":"error","message":"error validating body request Password confirmation is required","service":"user-service","trace":"Password confirmation is required"}
+{"fn":"bodyRequestValidator","instance":"middlewares schema validation","level":"error","message":"error validating body request Password confirmation is required","service":"user-service","trace":"Password confirmation is required"}
+{"fn":"bodyRequestValidator","instance":"middlewares schema validation","level":"error","message":"error validating body request Password confirmation is required","service":"user-service","trace":"Password confirmation is required"}
+{"fn":"authValidateUserService","instance":"services","level":"error","message":"Error validating user credentials","service":"user-service","trace":"user email or password is incorrect"}
+{"fn":"authLoginService","instance":"services","level":"error","message":"Error login user","service":"user-service","trace":"Error validating user credentials"}
+{"fn":"bodyRequestValidator","instance":"middlewares schema validation","level":"error","message":"error validating body request Password confirmation is required","service":"user-service","trace":"Password confirmation is required"}
+{"fn":"bodyRequestValidator","instance":"middlewares schema validation","level":"error","message":"error validating body request Password confirmation is required","service":"user-service","trace":"Password confirmation is required"}
+{"fn":"authLoginService","instance":"services","level":"error","message":"Error login user","service":"user-service","trace":"user is not valid "}
+{"fn":"authValidateUserService","instance":"services","level":"error","message":"Error validating user credentials","service":"user-service","trace":"user email or password is incorrect"}
+{"fn":"authLoginService","instance":"services","level":"error","message":"Error login user","service":"user-service","trace":"Error validating user credentials"}
+{"level":"error","message":"error creating a offerse","service":"createOneOfferseService","trace":"Offerse validation failed: name: Path `name` is required."}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error creating a offerse","service":"createOneOfferseService","trace":"Offerse validation failed: name: Path `name` is required."}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error creating a offerse","service":"createOneOfferseService","trace":"Offerse validation failed: name: Path `name` is required."}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error creating a offerse","service":"createOneOfferseService","trace":"Offerse validation failed: characteristics.0: Cast to [string] failed for value \"[ { id: 12, name: 'LL', price: 20, description: 'LL descripción LL' } ]\" (type string) at path \"characteristics.0\" because of \"CastError\""}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error creating a offerse","service":"createOneOfferseService","trace":"Offerse validation failed: characteristics.0: Cast to [string] failed for value \"[ { name: 'LL', price: 20, description: 'LL descripción LL' } ]\" (type string) at path \"characteristics.0\" because of \"CastError\""}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error creating a offerse","service":"createOneOfferseService","trace":"Offerse validation failed: characteristics.0: Cast to [string] failed for value \"[ { name: 'LL', price: 20, description: 'LL descripción LL' } ]\" (type string) at path \"characteristics.0\" because of \"CastError\""}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error creating a offerse","service":"createOneOfferseService","trace":"Offerse validation failed: characteristics.0: Cast to [string] failed for value \"[ { name: 'LL', price: 20, description: 'LL descripción LL' } ]\" (type string) at path \"characteristics.0\" because of \"CastError\""}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error creating a offerse","service":"createOneOfferseService","trace":"Offerse validation failed: characteristics.0: Cast to [string] failed for value \"[ { name: 'LL', price: 20, description: 'LL descripción LL' } ]\" (type string) at path \"characteristics.0\" because of \"CastError\""}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error creating a offerse","service":"createOneOfferseService","trace":"Offerse validation failed: characteristics.0: Cast to [string] failed for value \"[ { name: 'LL', price: 20, description: 'LL descripción LL' } ]\" (type string) at path \"characteristics.0\" because of \"CastError\""}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error creating a offerse","service":"createOneOfferseService","trace":"Offerse validation failed: characteristics.0: Cast to [string] failed for value \"[ { name: 'LL', price: 20, description: 'LL descripción LL' } ]\" (type string) at path \"characteristics.0\" because of \"CastError\""}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error creating a offerse","service":"createOneOfferseService","trace":"Offerse validation failed: characteristics.0: Cast to [string] failed for value \"[ { name: 'LL', price: 20, description: 'LL descripción LL' } ]\" (type string) at path \"characteristics.0\" because of \"CastError\""}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error creating a offerse","service":"createOneOfferseService","trace":"Offerse validation failed: characteristics.0: Cast to [string] failed for value \"[ { name: 'LL', price: 20, description: 'LL descripción LL' } ]\" (type string) at path \"characteristics.0\" because of \"CastError\""}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error creating a offerse","service":"createOneOfferseService","trace":"Offerse validation failed: characteristics.0: Cast to [string] failed for value \"[ { name: 'Oferta 1' } ]\" (type string) at path \"characteristics.0\" because of \"CastError\""}
+{"level":"error","message":"error","service":"user-service"}

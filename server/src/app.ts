@@ -1,7 +1,9 @@
 import express, { Application, NextFunction, Request, Response }  from "express";
-import offerseRouter from "./offerse/OfferseRoutes";
+import offerseRouter from "./Offerse/offerseRouter";
 
 const app: Application = express();
+
+app.use(express.json());
 
 app.use(offerseRouter)
 
