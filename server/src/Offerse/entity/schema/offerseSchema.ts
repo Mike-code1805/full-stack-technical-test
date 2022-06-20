@@ -9,9 +9,17 @@ export const offerseSchemma = new Schema<Offerse>({
         type: String, 
         required: true, 
     },
-    characteristics: [{
-        type: String,
-    }],
+    characteristics: {
+        name:{
+            type: String,
+        },
+        price:{
+            type: Number,
+        },
+        description:{
+            type: String,
+        }
+    },
     created_at: { 
         type: Date,
         default: Date.now,

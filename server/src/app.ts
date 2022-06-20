@@ -1,8 +1,10 @@
 import express, { Application, NextFunction, Request, Response }  from "express";
 import offerseRouter from "./Offerse/offerseRouter";
+import cors from "cors";
 
 const app: Application = express();
 
+app.use(cors());
 app.use(express.json());
 
 app.use(offerseRouter)

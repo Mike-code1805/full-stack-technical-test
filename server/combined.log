@@ -211,3 +211,7 @@
 {"level":"error","message":"error","service":"user-service"}
 {"level":"error","message":"error creating a offerse","service":"createOneOfferseService","trace":"Offerse validation failed: characteristics.0: Cast to [string] failed for value \"[ { name: 'Oferta 1' } ]\" (type string) at path \"characteristics.0\" because of \"CastError\""}
 {"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error creating a offerse","service":"createOneOfferseService","trace":"Offerse validation failed: name: Path `name` is required."}
+{"level":"error","message":"error","service":"user-service"}
+{"level":"error","message":"error creating a offerse","service":"createOneOfferseService","trace":"Offerse validation failed: name: Path `name` is required."}
+{"level":"error","message":"error","service":"user-service"}
