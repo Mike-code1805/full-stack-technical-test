@@ -3,10 +3,17 @@ import './styles/styles.scss'
 
 const Dialog = () => {
     const [stateDialog, setStateDialog] = useState(false);
+    const [name, setName] = useState("");
+    const [price, setPrice] = useState(0);
+    const [description, setDescription] = useState("");
+
+    console.log({name, price, description});
+
     const handleClickOpen = () => {        
         setStateDialog(true);
     }
-    const handleClickClose = () => {        
+    const handleClickClose = (e) => { 
+        e.preventDefault();       
         setStateDialog(false);
     }
     return (  
@@ -14,12 +21,12 @@ const Dialog = () => {
             <button className={["button"]} onClick={handleClickOpen}>Agregar artículo</button>
             <dialog typeof="modal" className={["dialog"]} open={stateDialog}>
                 <form>
-                    <label>Ingrese código:</label>
-                    <input type="number" placeholder="Código"/>
+                    <label>Ingrese nombre:</label>
+                    <input onChange={(e) => setName(e.target.value)} type="text" placeholder="Código"/>
                     <label>Ingresa descripción:</label>
-                    <input type="text" placeholder="Descripción"/>
+                    <input onChange={(e) => setDescription(e.target.value)} type="text" placeholder="Descripción"/>
                     <label>Ingrese precio:</label>
-                    <input type="number" placeholder="Precio"/>
+                    <input onChange={(e) => setPrice(e.target.value)} type="number" placeholder="Precio"/>
                     <hr></hr>
                     <button onClick={handleClickClose}>Cerrar</button>
                     <input type="submit" value="Submit"/>
