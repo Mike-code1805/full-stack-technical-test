@@ -1,29 +1,25 @@
 import * as offersesTypes from './offersesTypes';
 
 const initialState = {
-  tasks: []
+  offerses: []
 }
-/**
- * 
- * @param {object} state 
- * @param {object} action 
- * @returns 
- */
+
 export const offersesReducer = (state = initialState, action) => {
   switch (action.type) {
     case offersesTypes.CREATE_OFFERSE:
-      const tasks = [action.payload, ...state.tasks]
-      return { ...state, tasks }
+      const offerse = [action.payload, ...state.offerses  ]
+      return { ...state, offerses:offerse }
     case offersesTypes.DELETE_OFFERSE:
-      const deletedTasks = state.tasks.filter(task => task.id !== action.payload)
-      return { ...state, tasks: deletedTasks }
-
+      const deletedOfferses = state.offerses.filter(offerse => offerse.id !== action.payload)
+      return { ...state, offerses: deletedOfferses }
     case offersesTypes.EDIT_OFFERSE:
-      const editedTasks = state.tasks.map(task => {
-        return task.id === action.payload.id ? action.payload : task
+      const editedOfferses = state.tasks.map(offerse => {
+        return offerse.id === action.payload.id ? action.payload : offerse
       })
-      return { ...state, tasks: editedTasks }
+      return { ...state, offerses: editedOfferses }
+    case offersesTypes.GET_ALL_OFFERSES:
+      return { ...state, products: action.payload }
     default:
       return state
   }
-}
+};
