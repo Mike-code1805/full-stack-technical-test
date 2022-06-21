@@ -1,3 +1,5 @@
+import { deleteOfferse } from '../../components/offerse/services/deleteOfferse';
+import { editOfferse } from '../../components/offerse/services/editOfferse';
 import { getAllOfferses } from '../../components/offerse/services/getAllOfferses';
 import { saveOfferse } from '../../components/offerse/services/saveOfferse';
 import * as offersesTypes from './offersesTypes';
@@ -13,16 +15,22 @@ export const createOffer = (offerses) => {
 };
 
 export const deleteOffer = (id) => {
-  return {
-    type: offersesTypes.DELETE_OFFERSE,
-    payload: id
+  return async (dispatch) => {
+    await deleteOfferse(id);
+    dispatch({
+      type: offersesTypes.DELETE_OFFERSE,
+      payload: id
+     });
   }
 };
 
 export const editOffer = (offerse) => {
-  return {
-    type: offersesTypes.EDIT_OFFERSE,
-    payload: offerse
+  return async (dispatch) => {
+    await editOfferse(offerse._id, offerse);
+    dispatch({
+      type: offersesTypes.EDIT_OFFERSE,
+      payload: offerse
+     });
   }
 }
 

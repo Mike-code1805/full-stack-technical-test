@@ -9,7 +9,7 @@ export const Offerse = () => {
 
     const dispatch = useDispatch();
     const { offerses } = useSelector(state => state.offerses);
-    console.log(offerses[0])
+
     useEffect(() => {
         try {
             dispatch(initOfferses())
@@ -36,7 +36,7 @@ export const Offerse = () => {
                                     <th scope="row">{item._id}</th>
                                     <td>{item.name}</td>
                                     <td> {item.characteristics.description} </td>
-                                    <td><ActionButtons/></td> 
+                                    <td><ActionButtons id={item._id}/></td> 
                                 </tr>                      
                             ))
                         }
