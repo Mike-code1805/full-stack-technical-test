@@ -1,41 +1,23 @@
-import React, { useEffect, useState } from 'react';
-// import { useDispatch, useSelector } from 'react-redux';
-import { offersesAPI } from '../../axios/apiURL';
-// import { initOfferses } from '../../redux/offerses/offersesActions';
+import React, { useEffect } from 'react';
+import { useDispatch, useSelector } from 'react-redux';
+import { initOfferses } from '../../redux/offerses/offersesActions';
 import { ActionButtons } from './components/actionButtons/ActionButtons.jsx';
 
 import './styles/offerse.scss'
 
 export const Offerse = () => {
 
-    const [offerses , setOfferses] = useState([]);
-    const [isloading, setIsLoading] = useState(false);
-    // const dispatch = useDispatch();
-
-    const getData = async () => {
+    const dispatch = useDispatch();
+    const { offerses } = useSelector(state => state.offerses);
+    console.log(offerses[0])
+    useEffect(() => {
         try {
-            setIsLoading(true)
-            const { data } = await offersesAPI.get('/api/offerses')
-            setOfferses(data)
-            setIsLoading(false)
+            dispatch(initOfferses())
         } catch (error) {
             console.log(error);
-        }
-        //dispatch -> request http
-    }
+        }        
+    }, [dispatch]);
 
-    // useEffect(() => {
-    //     dispatch(initOfferses())
-    // }, [dispatch]);
-
-    useEffect(() => {
-        offersesAPI.get('/api/offerses')
-        .then(({ data }) => setOfferses(data))
-        getData();
-    }, []);
-
-    if (isloading) return <h2>is loading</h2>
-    
     return (
         <div className={["container"]}>
             <table className={["table"]}>
@@ -50,7 +32,7 @@ export const Offerse = () => {
                 <tbody>
                         {
                             offerses.map((item) => (
-                                <tr>
+                                <tr key={item._id}>
                                     <th scope="row">{item._id}</th>
                                     <td>{item.name}</td>
                                     <td> {item.characteristics.description} </td>

@@ -18,7 +18,7 @@ export const offersesReducer = (state = initialState, action) => {
       })
       return { ...state, offerses: editedOfferses }
     case offersesTypes.GET_ALL_OFFERSES:
-      return { ...state, products: action.payload }
+      return { ...state, offerses: action.payload }
     default:
       return state
   }
