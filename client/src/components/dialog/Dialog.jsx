@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { useDispatch, useSelector } from "react-redux";
+import { useDispatch } from "react-redux";
 
 import { createOffer } from "../../redux/offerses/offersesActions";
 import './styles/styles.scss'
@@ -10,9 +10,6 @@ const Dialog = () => {
     const [price, setPrice] = useState(0);
     const [description, setDescription] = useState("");
     const dispatch = useDispatch();
-    const  offers  = useSelector(state => state)
-    console.log({name, price, description});
-    console.log(offers);
 
     const handleClickOpen = () => {        
         setStateDialog(true);
@@ -22,23 +19,28 @@ const Dialog = () => {
         setStateDialog(false);
     }
     
-    const saveOfferse = (e) => {
-        e.preventDefault()
+    const saveOfferse = () => {
         const offer = {
-        idOffer: Date.now(),
-        name,
-        price,
-        description,
-        }
+            name,
+            characteristics: ({
+                name,
+                price: parseInt(price),
+                description
+            })     
+        };
+        console.log(offer);
         dispatch(createOffer(offer));
+        setName("");
+        setDescription("");
+        setPrice(0);
     }
     return (  
         <div className={["dialogcontainer"]}>
-            <button className={["button"]} onClick={handleClickOpen}>Agregar artículo</button>
+            <button className={["buttonAdd"]} onClick={handleClickOpen}>Agregar artículo</button>
             <dialog typeof="modal" className={["dialog"]} open={stateDialog}>
                 <form>
                     <label>Ingrese nombre:</label>
-                    <input onChange={(e) => setName(e.target.value)} type="text" placeholder="Código"/>
+                    <input onChange={(e) => setName(e.target.value)} type="text" placeholder="Nombre"/>
                     <label>Ingresa descripción:</label>
                     <input onChange={(e) => setDescription(e.target.value)} type="text" placeholder="Descripción"/>
                     <label>Ingrese precio:</label>

@@ -1,10 +1,14 @@
 import { getAllOfferses } from '../../components/offerse/services/getAllOfferses';
+import { saveOfferse } from '../../components/offerse/services/saveOfferse';
 import * as offersesTypes from './offersesTypes';
 
-export const createOffer = (offerse) => {
-  return {
-    type: offersesTypes.CREATE_OFFERSE,
-    payload: offerse
+export const createOffer = (offerses) => {
+  return async (dispatch) => {
+    await saveOfferse(offerses);
+    dispatch({
+      type: offersesTypes.CREATE_OFFERSE,
+      payload: offerses
+     });
   }
 };
 
