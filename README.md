@@ -1,6 +1,7 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Abstract
+In this project I do a fullstack test of technical interviews. Along with frontend and backend in the same repository.
+JavaScript for the front
+TypeScript for the back
 
 ## Available Scripts
 
