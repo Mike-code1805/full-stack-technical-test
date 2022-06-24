@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useDispatch } from "react-redux";
-
 import { createOffer } from "../../redux/offerses/offersesActions";
+import { CreateOfferse } from "./CreateOfferse";
 import './styles/styles.scss'
 
 const Dialog = () => {
@@ -9,14 +9,11 @@ const Dialog = () => {
     const [name, setName] = useState("");
     const [price, setPrice] = useState(0);
     const [description, setDescription] = useState("");
+    
     const dispatch = useDispatch();
 
     const handleClickOpen = () => {        
         setStateDialog(true);
-    }
-    const handleClickClose = (e) => { 
-        e.preventDefault();       
-        setStateDialog(false);
     }
     
     const saveOfferse = () => {
@@ -37,7 +34,7 @@ const Dialog = () => {
     return (  
         <div className={["dialogcontainer"]}>
             <button className={["buttonAdd"]} onClick={handleClickOpen}>Agregar artículo</button>
-            <dialog typeof="modal" className={["dialog"]} open={stateDialog}>
+            {/* <dialog typeof="modal" className={["dialog"]} open={stateDialog}>
                 <form>
                     <label>Ingrese nombre:</label>
                     <input onChange={(e) => setName(e.target.value)} type="text" placeholder="Nombre"/>
@@ -49,7 +46,15 @@ const Dialog = () => {
                     <button onClick={handleClickClose}>Cerrar</button>
                     <button onClick={saveOfferse}> Crear </button>
                 </form> 
-            </dialog>            
+            </dialog>             */}
+            <CreateOfferse
+                show={stateDialog}
+                cancel={() => setStateDialog(false)}
+                handleName={(e) => setName(e.target.value)}
+                handleDescription={(e) => setDescription(e.target.value)}
+                handlePrice={(e) => setPrice(e.target.value)}
+                save={saveOfferse}
+            />
         </div>            
     );
 }
