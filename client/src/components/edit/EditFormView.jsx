@@ -1,7 +1,7 @@
 import React from 'react';
 import { Button, Form } from 'react-bootstrap';
 
-export const EditFormView = ({ handleId, handleName, handleDescription, handlePrice, handleSubmit, id, name, description, price, editMode }) => {
+export const EditFormView = ({ handleName, handleDescription, handlePrice, handleSubmit, id, name, description, price, editMode }) => {
   return (
     <Form onSubmit={handleSubmit}>
       <Form.Group className='mb-3' >
